@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         String fname = eFname.getText().toString().trim();
         String lname = eLname.getText().toString().trim();
         Long exam1 = Long.parseLong(eExam1.getText().toString().trim());
-        Long exam2 = Long.parseLong(eExam1.getText().toString().trim());
+        Long exam2 = Long.parseLong(eExam2.getText().toString().trim());
         Long average = (exam1 + exam2) / 2;
         Student sgrade = new Student(fname,lname,average);
         String key = root.push().getKey();
